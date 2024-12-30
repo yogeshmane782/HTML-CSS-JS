@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    --primary-yellow:#f6db35;
+    --secondary-yellow:#ffc510;
+    --comic-red:#ee5454;
+    transition:all 1s ease;
+}
+body{
+    font-family: "Bangers",system-ui;
+    font-weight: 400;
+    font-style: normal;
+    height: 100vh;
+    background: linear-gradient(var(--primary-yellow),var(--comic-red));
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 100px;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+a:hover{
+    color: var(--comic-red);
+}
